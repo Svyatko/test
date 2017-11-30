@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="image">
+		  <img src="#" alt="First">
+		  <button class="remove">X</button>
+		</div>
+		<div class="image">
+		  <img src="#" alt="Second">
+		  <button class="remove">X</button>
+		</div>
+		<div class="image">
+		  <img src="#" alt="Third">
+		  <button class="remove">X</button>
+		</div>
+		<div id="image">
+		  <img src="#" alt="Fourth">
+		  <button id="remove">X</button>
+		</div>
+
+
+		<script>
+			document.getElementsByClassName("remove").innerHTML = "Hello, classes";
+			document.getElementById("remove").innerHTML = "Hello Id";
+		</script>
+	</body>
+</html>
